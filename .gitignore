@@ -1,1 +1,3 @@
-prototype/.env
+.env
+*.env
+
