@@ -1,6 +1,6 @@
 # Cloud-Based Remote COPD Monitoring (Design + Optional Prototype)
 
-This project demonstrates the design of a cloud-based healthcare system for remote monitoring of COPD patients using wearable data. The goal is to show how cloud compute, storage, databases, and serverless services can be combined to ingest physiologic data (SpO2 and heart rate), detect concerning trends, and surface meaningful alerts to patients and clinicians while controlling cost and simplfying complexity.
+This project demonstrates the design of a cloud-based healthcare system for remote monitoring of COPD patients using wearable data. The goal is to show how cloud compute, storage, databases, and serverless services can be combined to ingest physiologic data (SpO2 and heart rate), detect concerning trends, and surface meaningful alerts to patients and clinicians while controlling cost and simplifying complexity.
 
 ---
 
@@ -14,6 +14,8 @@ This project demonstrates the design of a cloud-based healthcare system for remo
 ├── README.md # Overview and instructions
 └── prototype/ # Flask prototype
     ├── app.py
+    ├── generate_synthetic_data.py
+    ├── /screenshots
     ├── requirements.txt
     └── README.md
 ```
