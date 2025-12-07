@@ -16,7 +16,6 @@ This project demonstrates the design of a cloud-based healthcare system for remo
     ├── app.py
     ├── requirements.txt
     └── README.md
-    └── video_link.text
 ```
 
 ## Project Overview
