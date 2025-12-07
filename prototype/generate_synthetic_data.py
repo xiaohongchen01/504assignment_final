@@ -2,11 +2,11 @@
 
 import requests
 import random
-from datatime import datetime
+from datetime import datetime
 import time
 
 
-BASE_URL = 'http://127.0.0.1:5000/ingest'
+BASE_URL = 'https://copd-rpm-api-hfc8bccmfggwbgf8.eastus-01.azurewebsites.net/ingest'
 
 PATIENT_ID = "COPD_001"
 
@@ -19,7 +19,12 @@ while True:
     }
 
     response = requests.post(BASE_URL, json=payload)
-    print(response.status_code, response.json())
+
+    print("Status:", response.status_code)
+    try:
+        print("JSON Response:", response.json())
+    except ValueError:
+        print("Response:", response.text[:200])
 
     time.sleep(10)
 
