@@ -5,6 +5,7 @@ This project demonstrates the design of a cloud-based healthcare system for remo
 ---
 
 ## Project Structure
+```
 /
 ├── use_case.md # One-page description of the healthcare use case
 ├── architecture_diagram.png
@@ -16,7 +17,7 @@ This project demonstrates the design of a cloud-based healthcare system for remo
     ├── requirements.txt
     └── README.md
     └── video_link.text
-
+```
 
 ## Project Overview
 
